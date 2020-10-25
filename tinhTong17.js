@@ -6,11 +6,13 @@ function tinhTong17 (n){
     }
     return tich;
 }
-var tong=0;
-var x=2;
-var n=3;
-for(var i=1;i<=n;i++)
-{
-    tong=tong+(x**i/tinhTong17(i));
+function main(n){
+    var tong=0;
+    var x=2;
+    for(var i=1;i<=n;i++)
+    {
+        tong=tong+(x**i/tinhTong17(i));
+    }
+    console.log("Kêt quả là:"+tong);
 }
-console.log("Kêt quả là:"+tong);
+main(3);

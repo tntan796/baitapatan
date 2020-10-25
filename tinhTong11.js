@@ -7,11 +7,12 @@ for(var i=2; i<=n;i++)
 }
 return tich;
 }
-
-var tong=1;
- var n=3;
- for( var i=2;i<=n;i++)
- {
-     tong=tong+tinhTong10(i);
- }
- console.log("Kết quả là:"+tong);
+function main(n){
+    var tong=1;
+    for( var i=2;i<=n;i++)
+    {
+        tong=tong+tinhTong10(i);
+    }
+    console.log("Kết quả là:"+tong);
+}
+main(3);

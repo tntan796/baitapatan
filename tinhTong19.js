@@ -6,11 +6,14 @@ function tinhTong19 (n){
   }
   return tich;
 }
-var tong =1;
-var x=2;
-var n=3;
-for(var i=0;i<=n;i++)
-{
-    tong =tong + (x**(2*i+1)/tinhTong19(2*i+1));
+function main(n){
+  var tong =1;
+  var x=2;
+  
+  for(var i=0;i<=n;i++)
+  {
+      tong =tong + (x**(2*i+1)/tinhTong19(2*i+1));
+  }
+  console.log("Kết quả là:"+tong);
 }
-console.log("Kết quả là:"+tong);
+main(3);

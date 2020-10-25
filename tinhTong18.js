@@ -7,11 +7,13 @@ for(var i=1;i<=n;i++)
 }
 return tich;
 }
-var tong=1;
-var x=2;
-var n=3;
-for(var i=1;i<=n;i++)
-{
-tong=tong+ (x**(2*i)/(tinhTong18(2*i)));
+function main(n){
+    var tong=1;
+    var x=2;
+    for(var i=1;i<=n;i++)
+    {
+    tong=tong+ (x**(2*i)/(tinhTong18(2*i)));
+    }
+    console.log("Kết quả là:"+tong);
 }
-console.log("Kết quả là:"+tong);
+main(3);

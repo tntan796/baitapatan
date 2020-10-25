@@ -7,10 +7,14 @@ function tinhTong15(n)
     }
     return tong;
 }
-var tong=0;
-var n=3;
- for(var i=1;i<=n;i++)
- {
-     tong=tong+1/tinhTong15(i);
- }
- console.log("Kết quả là:"+tong);
+function main(n){
+    var tong=0;
+  
+     for(var i=1;i<=n;i++)
+     {
+         tong=tong+1/tinhTong15(i);
+     }
+     console.log("Kết quả là:"+tong);
+}
+main(3);
+

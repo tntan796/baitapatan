@@ -4,10 +4,13 @@ function tinhTong13 (n){
  tich=tich*x**(2*n);
  return tich;
 }
-var tong=0;
-var n=3;
-for(var i=1; i<=n;i++)
-{
-    tong=tong+ tinhTong13(i);
+function main(n){
+    var tong=0;
+   
+    for(var i=1; i<=n;i++)
+    {
+        tong=tong+ tinhTong13(i);
+    }
+    console.log("Kết quả là:"+tong);
 }
-console.log("Kết quả là:"+tong);
+main(3);
