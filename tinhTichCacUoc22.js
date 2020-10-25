@@ -5,8 +5,9 @@ function tinhTinhCacUoc22(n){
             if(n%i==0)
             {
                 tich=tich*i;
-            }
-        }
-        console.log("Tích các ước của số nguyên"+" "+n+" "+"là "+tich);
-}
-tinhTinhCacUoc22(10);
+               
+            } 
+        } 
+        return tich;      
+    }
+  console.log("kết quả là"+tinhTinhCacUoc22(10));
