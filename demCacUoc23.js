@@ -3,11 +3,12 @@ function demCacUoc23(n){
     for(var i=1;i<=n;i++)
     {
         if(n%i==0)
-        {
-            console.log("ước của số nguyên "+" "+n+" "+"là "+i);
+        {          
             dem++;
         }
     }
-    console.log("Số ước của "+" "+n+" "+"là "+dem);
+   return dem;
 }
-demCacUoc23(10);
+
+console.log("Các ước là :"+demCacUoc23(10));
+
