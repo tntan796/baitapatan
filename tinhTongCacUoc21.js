@@ -7,7 +7,9 @@ function tinhTongCacUoc21(n){
           tong=tong+i;
         }
     }
-    console.log("Tổng các ước của"+ " "+n+" "+"là"+" " +tong);
+    return tong;
+   
 }
-tinhTongCacUoc21(10);
+console.log("Tổng các ước là" +tinhTongCacUoc21(10));
+
 
