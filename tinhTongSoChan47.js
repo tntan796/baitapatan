@@ -11,4 +11,4 @@ function tinhTongSoChan47 (n)
     }
     return tong;
 }
-console.log("Kết quả là "+tinhTongSoChan47(123))
+console.log("Kết quả là "+tinhTongSoChan47)
