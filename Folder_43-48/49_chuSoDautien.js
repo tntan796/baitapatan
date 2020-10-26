@@ -1,4 +1,5 @@
 function timChuSoDauTien(n){
+    var chusodautien=0;
     while(n>0)
     {
         chusodautien=n%10;
