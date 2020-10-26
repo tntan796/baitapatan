@@ -1,15 +1,17 @@
-function timChuSoLonNhat(n){
+function timCSLN(n){
     var max=0;
-    var kiemtra;
+  var m;
     while(n>0)
     {
-        kiemtra=n%10;
-        if(kiemtra>max)
-        {
-            kiemtra=max;
-        }
-
+         m=n%10;
+    
+       if(m>max)
+    {
+        max=m;
     }
-    return kiemtra;
-}
-console("Chũ số lớn nhất là:"+timChuSoLonNhat(354));
+    n=Math.floor(n/10);
+    }
+    
+    return max;
+}   
+console.log("Chũ số lớn nhất là:"+timCSLN(587));
