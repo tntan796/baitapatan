@@ -1,5 +1,4 @@
 
-
 function demSoLuongChuSOmax(n){
 var max=0;
 while(n>0)
@@ -12,19 +11,19 @@ while(n>0)
 }
 return max;
 }
-
- function demmax(m)
+ function demmax(n)
 {
-    var m=n;
+    var m= demSoLuongChuSOmax(n);
     var dem=0;
     while(n>0)
     {
-        if(n%10==demso)
+        
+        if(m==n%10)
         {
             dem++;
         }
         n=Math.floor(n/10);
     }
-    return demmax;
+    return dem;
 }
-console.log("Số lần xuất hiện số lớn nhất của số nguyên dương n là:"+demmax(3456777));
+console.log("Số lần xuất hiện số lớn nhất của số nguyên dương n là:"+demmax(34567777));
