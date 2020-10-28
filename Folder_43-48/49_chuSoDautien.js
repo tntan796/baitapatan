@@ -7,4 +7,4 @@ function timChuSoDauTien(n){
     }
     return chusodautien;
 }
-console.log("Chũ số đầu tiên của số nguyên dương là:"+ timChuSoDauTien(537));
+console.log("chữ số đầu tiên của sô nguyên dương n là"+timChuSoDauTien(3456))
