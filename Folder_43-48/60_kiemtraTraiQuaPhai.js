@@ -15,4 +15,4 @@ function kiemTraTraiQuaPhai(n){
     return false;
     
 }
-console.log("In ra kết quả "+kiemTraTraiQuaPhai(4321))
+console.log("In ra kết quả "+kiemTraTraiQuaPhai(1357))
