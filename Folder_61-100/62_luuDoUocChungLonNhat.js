@@ -1,5 +1,4 @@
 function luuDoUCLN(a,b){
-  
     while(a!=b)
     {
         if(a>b)
