@@ -9,7 +9,6 @@ function tinhTong(n)
 }
 function main(n){
     var x=2;
-   
     var tong=0;
     for(var i=1;i<=n;i++)
     {
