@@ -1,17 +1,23 @@
-function tinhTong87()
-{
+
+
+
     var Ketqua=1;
     var tong =0;
-    for(var i=1;i<10000;i++)
+    for(var i=1;i<10;i++)
     {
-       
-        tong=tong+i; 
-    }
-   
-   if(tong > 10000)
 
-      Ketqua=Ketqua*i;
+      tong=tong+i;
+      Ketqua=i;
+      if(tong>10)
+      {
+          break;
+      }
+
+    }
+    console.log("n là "+Ketqua);
+  
    
    
-}
-console.log("Kết quả n thỏa mãn là "+tinhTong87(5));
+
+
+
