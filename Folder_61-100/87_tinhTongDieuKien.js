@@ -1,4 +1,4 @@
-function tinhTong87(n)
+function tinhTong87()
 {
     var Ketqua=1;
     var tong =0;
@@ -7,11 +7,11 @@ function tinhTong87(n)
        
         tong=tong+i; 
     }
-    if(tong>10000)
-    {
-        Ketqua=Ketqua*i;
-    }
-    return Ketqua;
+   
+   if(tong > 10000)
 
+      Ketqua=Ketqua*i;
+   
+   
 }
-console.log("Kết quả n thỏa mãn là "+Ketqua);
+console.log("Kết quả n thỏa mãn là "+tinhTong87(5));
