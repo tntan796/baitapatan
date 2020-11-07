@@ -11,3 +11,7 @@ function kiemtracungdau(a,b){
     }
 }
 kiemtracungdau(2,-2);
+
+// Hàm trả lại kết trả kiểm tra ví dụ như true thì là cùng dấu, false thì là khác dấu.
+// Kết thúc hàm thì gọi kiểm tra if(kiemtracungdau(3,2) == true) {}
+// Không console bài kiểm tra ở trong hàm
